@@ -20,16 +20,6 @@ public class Item {
     return cost;
   }
 
-  @Override
-  public String toString() {
-    final var sb = new StringBuilder("Item{");
-    sb.append("index=").append(index);
-    sb.append(", weight=").append(weight);
-    sb.append(", cost=").append(cost);
-    sb.append('}');
-    return sb.toString();
-  }
-
   public static class Builder {
     private int index;
     private double weight;

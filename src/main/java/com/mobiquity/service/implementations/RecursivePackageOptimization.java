@@ -13,13 +13,14 @@ public class RecursivePackageOptimization implements PackageOptimizationService 
 
   /**
    * Recursive knapsack problem solving
+   *
    * @param weight
    * @param itemList
    * @param optimalChoice
    * @param packageSize
    * @return
    */
-  private static double fillPackage(
+  private double fillPackage(
       double weight, List<Item> itemList, List<Item> optimalChoice, int packageSize) {
     if (packageSize == 0 || weight == 0) {
       return 0;
@@ -54,6 +55,7 @@ public class RecursivePackageOptimization implements PackageOptimizationService 
 
   /**
    * Problem solving method
+   *
    * @param pack
    * @return
    */

@@ -50,7 +50,7 @@ public class PackageExtractionServiceImpl implements PackageExtractionService {
       }
 
     } catch (IOException | APIException e) {
-      throw new APIException("An error has been occurred!", e);
+      throw new APIException(e.getMessage(), e);
     }
     return result.toString();
   }

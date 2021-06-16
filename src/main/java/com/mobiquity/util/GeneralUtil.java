@@ -6,6 +6,7 @@ public class GeneralUtil {
 
   /**
    * if args[0] is null return default file input path
+   *
    * @param args
    * @return
    */

@@ -14,6 +14,7 @@ public class FileReaderServiceImpl implements FileReaderService {
 
   /**
    * Reading line(s) of the file from given path
+   *
    * @param path
    * @return
    * @throws IOException
